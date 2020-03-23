@@ -1,0 +1,25 @@
+.post {
+  width: 90%;
+  margin-left: 5%;
+}
+.post-picture {
+  width: 500px;
+  float: left;
+  margin-right: 20px;
+}
+.post-text {
+  font-size: 20.5px;
+}
+.invention li {
+  font-size: 20.5px;
+  margin-left: 60px;
+}
+.post-text-area {
+  font-size: 20.5px;
+}
+.invention {
+  margin-top: 10px;
+}
+#postText {
+  min-height: 500px;
+}

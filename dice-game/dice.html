@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF8" />
+    <meta name="viewport" content="width=device-width, ininial-scale = 1.0" />
+    <title>Оньс || Dice Game.</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/picture/HTML using pic/favicon.png"
+    />
+    <!--Main CSS-->
+    <link rel="stylesheet" type="text/css" href="/CSS/style sheet.css" />
+    <link
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--Imported fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap&subset=cyrillic-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap&subset=cyrillic-ext"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Navigation Bar-->
+    <nav>
+      <a href="index.html"
+        ><img src="/picture/HTML using pic/logo.jpg" class="header-logo"
+      /></a>
+      <ul class="nav-links">
+        <li>
+          <a href="/index.html">Эхлэл</a>
+        </li>
+        <li>
+          <a href="#">Сонирхолтой мэдээлэл</a>
+        </li>
+        <li>
+          <a href="#">Хүндэт эрхмүүд</a>
+        </li>
+        <li>
+          <a href="#">Таны боловсролд</a>
+        </li>
+        <li>
+          <a href="#">Технологи</a>
+        </li>
+        <li>
+          <a href="#">Be Positive</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+      </div>
+    </nav>
+
+    <!--Body-->
+    <div class="main">
+      <div class="wrapper clearfix">
+        <div class="player-0-panel active">
+          <div class="player-name" id="name-0">Тоглогч 1</div>
+          <div class="player-score" id="score-0">43</div>
+          <div class="player-current-box">
+            <div class="player-current-label">Хураасан</div>
+            <div class="player-current-score" id="current-0">11</div>
+          </div>
+        </div>
+
+        <div class="player-1-panel">
+          <div class="player-name" id="name-1">Тоглогч 2</div>
+          <div class="player-score" id="score-1">72</div>
+          <div class="player-current-box">
+            <div class="player-current-label">Хураасан</div>
+            <div class="player-current-score" id="current-1">0</div>
+          </div>
+        </div>
+
+        <button class="btn-new">
+          <i class="ion-ios-plus-outline"></i>Шинээр эхлэх
+        </button>
+        <button class="btn-roll"><i class="ion-ios-loop"></i>Шоог орхих</button>
+        <button class="btn-hold">
+          <i class="ion-ios-download-outline"></i>Хадгалах
+        </button>
+
+        <img src="dice-5.png" alt="Dice" class="dice" />
+      </div>
+    </div>
+
+    <script src="diceApp.js"></script>
+    <!--Footer-->
+    <div class="footer">
+      <img src="/picture/HTML using pic/onis.jpg" class="footer-logo" />
+      <a href="#" target="blank"
+        ><img
+          src="/picture/HTML using pic/icon tw.jpg"
+          class="social-profiles"
+          id="last-profile"
+      /></a>
+      <a href="https://www.instagram.com/onis.mn/" target="blank"
+        ><img src="/picture/HTML using pic/icon ig.jpg" class="social-profiles"
+      /></a>
+      <a href="https://www.facebook.com/onisml/" target="blank"
+        ><img src="/picture/HTML using pic/icon fb.jpg" class="social-profiles"
+      /></a>
+    </div>
+    <div class="copyright">
+      <div>© 2020 Оньс.</div>
+      <div>
+        <p class="my-name">ЭДЦ Сургууль 10в анги Б.Барсболд</p>
+      </div>
+    </div>
+    <script src="/JS/navBarAnimate.js"></script>
+  </body>
+</html>
